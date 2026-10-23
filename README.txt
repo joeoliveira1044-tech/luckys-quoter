@@ -1,9 +1,9 @@
-LUCKY'S QUOTER - standalone phone app, VERSION 4
+LUCKY'S QUOTER - standalone phone app, VERSION 5
 
 WHAT CHANGED IN THIS VERSION
- - Header banner corrected ("Where craftsmanship meets desire").
- - Client quote header shows your round logo in the upper left with the
-   banner next to it.
+ - Full lumber and plywood price list (222 items, every size and grade),
+   listed alphabetically by wood.
+ - Corrected header, round logo + banner on the client quote.
  - One all-in shop rate covers wages, overhead and machine wear.
 
 UPDATING YOUR EXISTING GITHUB SITE (do this on a computer)
@@ -17,11 +17,9 @@ UPDATING YOUR EXISTING GITHUB SITE (do this on a computer)
     again once or twice while you have a signal. The new version loads.
 
 YOUR SAVED DATA
- Saved quotes, materials and settings stay on the phone.
- Tip: Settings > Business > Copy backup, and paste it into Notes before you
- update.
-
-FIRST-TIME SETUP (only if you have not put it on GitHub yet)
- Put the files in a public GitHub repository, turn on Settings > Pages
- (Deploy from a branch, main, / root), then open the link in Safari on your
- iPhone and use Share > Add to Home Screen.
+ - Saved quotes and settings stay on the phone.
+ - The material list is replaced with the new price list. Any materials you
+   added yourself are kept. Prices you edited by hand in the old list are
+   replaced by the new supplier prices.
+ - Tip: Settings > Business > Copy backup, and paste it into Notes before you
+   update.

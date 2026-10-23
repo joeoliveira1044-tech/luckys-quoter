@@ -1,5 +1,5 @@
 // Lets the app open instantly and work with no signal.
-const CACHE = "luckys-quoter-v4";
+const CACHE = "luckys-quoter-v5";
 const FILES = ["./", "./index.html", "./app.js", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png", "./favicon.png"];
 self.addEventListener("install", (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(FILES)).then(() => self.skipWaiting())); });
 self.addEventListener("activate", (e) => {
